@@ -12,7 +12,7 @@ int main()
 {
     animals Rodolfo;
     animals Dana;
-    animals Akira;
+    animals Akira;      // asigno diferentes nombres a la estructura anterior //
 
     Rodolfo.name = "Rodolfo";
     Rodolfo.type = "siberyan husky";
@@ -27,9 +27,9 @@ int main()
     Akira.name = "Akira";
     Akira.type = "carlino pug";
     Akira.age = 7;
-    Akira.weight = 8.6;
+    Akira.weight = 8.6;             // defio los resultados de la estructura creada anteriormente para cada nombre //
 
     printf("The dog whith name %s and type %s is %d years old and weight %f\n",Rodolfo.name, Rodolfo.type, Rodolfo.age, Rodolfo.weight);
     printf("The dog whith name %s and type %s is %d years old and weight %f\n",Dana.name, Dana.type, Dana.age, Dana.weight);
-    printf("The dog whith name %s and type %s is %d years old and weight %f\n",Akira.name, Akira.type, Akira.age, Akira.weight);
+    printf("The dog whith name %s and type %s is %d years old and weight %f\n",Akira.name, Akira.type, Akira.age, Akira.weight);        // imprimo los resultados que defino antes //
 }

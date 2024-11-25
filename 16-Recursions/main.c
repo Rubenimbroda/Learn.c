@@ -18,6 +18,7 @@ int factorial(int number)
 {
     if(number > 1) {
         return number * factorial(number-1); // esta función multiplica el número del factorial por el factorial anterior //
+                                            // el factorial se calcula multiplicando ese número por todos los anteriores (5! = 5 x 4 x 3 x 2 x 1 = 120) //
     }
     else {
         return 1;
