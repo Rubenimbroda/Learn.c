@@ -6,7 +6,7 @@ int main(){
 
     if (a < b)
     {
-        printf("a es menor que b\n");
+        printf("a es menor que b\n");  
     }
     else if (a > b)
     {
@@ -14,6 +14,6 @@ int main(){
     }
     else if (a == b)
     {
-        printf("a es igual que b\n");
+        printf("a es igual que b\n");        //creo unas condiciones que dependiendo de cual se cumpla imprima una cosa u otra //
     }
 }

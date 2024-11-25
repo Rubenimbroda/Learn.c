@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int ft_strlen(char * string){
+int ft_strlen(char * string){   // función que cuenta la longitud de un string //
 
     int i = 0;
     while(string[i] != '\0'){
@@ -15,11 +15,11 @@ int main() {
   char last_name[] = "Dohemia";
   char name[100];
 
-  last_name[0] = 'B';
-    sprintf(name, "%s %s", first_name, last_name);
+  last_name[0] = 'B'; // cambio la primera posición de "last_name" por una "B"
+    sprintf(name, "%s %s", first_name, last_name);  // digo que el nombre es lo que se imprime //
 
-  if (strncmp(name, "John Bohemia", ft_strlen(name)) == 0) {
-      printf("Is the same!\n");
+  if (strncmp(name, "John Bohemia", ft_strlen(name)) == 0) {    // si el nombre es "Jhon Bohemia" imprime "is the same" //
+      printf("Is the same!\n"); 
   }
 
   //esto name[0]='\0' es == vaciar el string

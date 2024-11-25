@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-typedef struct animals
+typedef struct animals  // define una estructura de lo que sea, en este caso animales //
 {
     char * name;
     char * type;
